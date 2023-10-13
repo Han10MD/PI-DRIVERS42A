@@ -1,0 +1,25 @@
+.homePage {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 10rem 0;
+}
+
+.cards {
+    background-position: center center;
+    display: grid;
+    gap: 3em;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    padding: 2em;
+    margin: 2em;
+}
+
+.botonesPagina {
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+}
